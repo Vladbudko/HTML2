@@ -1,0 +1,57 @@
+@media screen and (max-width: 375px) {
+ :root {
+  --aqua: yellow;
+ }
+
+ .about__grid{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.header__name,.header__top__grid{
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
+.header__top__grid{
+ column-gap: 50px;
+ position: relative;
+
+}
+
+.header__logo{
+ height:80px ;
+ padding-right: 80px;
+ background: blue;
+}
+
+.about__card{
+ width: 60%;
+}
+
+.products__item{
+ height: 100px;
+ width: 100px;
+ margin-bottom: 90px;
+}
+
+.products_grid{
+ border: solid 3px var(--aqua);
+ border-radius: 30px;
+ height: 210px;
+}
+.name{
+ margin-top: 120px;
+}
+
+}
+
+
+
+
+
+
+
