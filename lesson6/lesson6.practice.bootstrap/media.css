@@ -1,0 +1,10 @@
+@media screen and (max-width: 400px){
+    img{
+
+        padding-right: 375px;
+    }
+
+    .screen-1-left h1,.screen-2-left h1{
+        font-size: 40px;
+    }
+}
