@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px){
+    .card__menu{
+        display: flex;
+       flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .header__title{
+        padding-left: unset;
+        width:350px;
+        margin-top: 70px;
+        left: 2%;
+
+    }
+
+    .header__title h1{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 1px;
+
+    }
+
+    .header__title h2{
+        font-size: 30px;
+        line-height: 10px;
+
+    }
+
+    .header__title p{
+        font-size: 25px;
+        margin-top: 1px;
+    }
+
+
+
+    .header__title p::before, .header__title p::after{
+        display: none;
+    }
+}

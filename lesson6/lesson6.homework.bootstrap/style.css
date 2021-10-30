@@ -1,0 +1,120 @@
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.header{
+    height: 100vh;
+    background: url("image/bg.png") no-repeat center/cover;
+
+
+
+}
+
+.header__logo img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    border: 2px solid transparent;
+
+}
+
+.navbar-brand .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.header__title{
+    font-weight: normal;
+    color: #D67E35;
+    padding-left: 175px;
+    width:600px;
+        position: absolute;
+    right: 60%;
+    top: 40%;
+
+}
+.header__title h2{
+    font-size: 40px;
+    line-height: 57px;
+    padding-left: 24px;
+}
+.header__title h1{
+    font-size: 60px;
+    line-height: 92px;
+}
+
+.header__title p{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-top: 12px;
+
+}
+
+.header__title p::before, .header__title p::after{
+    display: block;
+    content: "";
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4 ;
+}
+
+.header__title p::before{
+    margin-right: 10px;
+}
+
+.header__title p::after{
+    margin-left: 10px;
+}
+
+button{
+    background-color: #FF7400;
+    border:none;
+    color: #FFFFFF;
+    height: 47px;
+    padding: 0 19px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.card__menu{
+    display: flex;
+    column-gap: 40px;
+}
+
+.card{
+    bottom: 100px;
+    height: 330px;
+
+
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
