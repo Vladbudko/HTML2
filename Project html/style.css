@@ -50,7 +50,7 @@
 }
 
 .header__top img{
-margin-left: 120px;
+    margin-left: 120px;
 }
 
 p{
@@ -338,7 +338,7 @@ button{
 
 .block__information__text2{
     display: flex;
-   margin-left: 80px;
+    margin-left: 80px;
 
 }
 
@@ -802,9 +802,12 @@ button{
 }
 
 .footer{
-    height: 450px;
+    height: 470px;
     background: #0C1A2A;
     display: flex;
+    overflow: hidden;
+
+
 }
 
 .title__left p{
@@ -924,7 +927,7 @@ button{
 
 .form-control2{
 
-   background: #0C1A2A;
+    background: #0C1A2A;
     border: 1px solid #203246;
     border-radius: 6px;
     color: #FFFFFF;
@@ -958,7 +961,6 @@ button{
 .image__media,.image__text,.menu__katalog__media{
     display: none;
 }
-
 
 
 
