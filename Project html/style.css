@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.nav-item{
+    display: none;
+}
+
 
 .header__nav__left{
     color: #FFFFFF;
@@ -105,24 +109,21 @@ p{
 
 .header__top__text4{
     background-color: #E1EFD0;
-
 }
 
 .header__top__text5{
     margin-left:50px;
     margin-top: 20px;
-
 }
 
-.header__top__text5 p{
+.header__top__text5 > p.xxx{
     font-weight: 500;
     font-size: 12px;
     text-decoration-line: underline;
     color: #0F2438;
 }
 
-h1{
-    font-style: normal;
+.header__top__text5 p{
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
@@ -147,6 +148,20 @@ h1{
     margin-left: 120px;
     justify-content: center;
     align-items: center;
+
+}
+
+.header__bottom> img.btn_stick{
+    margin-right: 10px;
+}
+
+.header__bottom button > p{
+    width: 68px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
 
 .header__bottom__search{
@@ -155,6 +170,10 @@ h1{
 
 .input-group{
     width: 500px;
+}
+
+.input-group button img{
+    display: none;
 }
 
 .item{
@@ -201,7 +220,6 @@ h1{
 }
 
 .carousel__text h1{
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
@@ -210,7 +228,6 @@ h1{
 }
 
 .carousel__text p{
-    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
@@ -225,7 +242,6 @@ h1{
 }
 
 .carousel__text2 h2{
-    font-style: normal;
     font-weight: 500;
     font-size: 37px;
     line-height: 43px;
@@ -233,7 +249,6 @@ h1{
 }
 
 .carousel__text2 p{
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 26px;
@@ -293,7 +308,6 @@ button{
 
 .block p{
     margin: 20px 0 0 15px;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -305,19 +319,15 @@ button{
 }
 
 .block__information h5{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
     color: #0A1A2C;
     margin: 35px 0 0 15px;
-
-
 }
 
 .block__information img{
     margin: 34px 0 0 15px;
-
 }
 
 .block__information__text p{
@@ -336,17 +346,13 @@ button{
     font-weight: bold;
     font-size: 20px;
     color: #FFB800;
-
-
 }
 
 .block__information__text-price p{
-    font-weight: normal;
     font-size: 16px;
     text-decoration-line: line-through;
     color: #C2C5DA;
     line-height: 19px;
-
 }
 
 .block__information__btn button{
@@ -374,7 +380,6 @@ button{
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
     border-radius: 6px;
-
 }
 
 .item__block p{
@@ -441,7 +446,6 @@ button{
     margin-top: 70px;
     display: flex;
     column-gap: 20px;
-
 }
 
 .btn__menu button{
@@ -454,7 +458,6 @@ button{
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-
 }
 
 .btn__menu2 button ,.btn__menu3 button{
@@ -468,7 +471,6 @@ button{
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-
 }
 
 
@@ -568,8 +570,6 @@ button{
     width: 21px;
     height: 18px;
     margin-top: 18px;
-
-
 }
 
 .item__katalog__click > img.image__click{
@@ -676,6 +676,10 @@ button{
     column-gap: 200px;
 }
 
+.last__border__media{
+    display: none;
+}
+
 .circle{
     background: black;
     border-radius: 100px;
@@ -684,7 +688,6 @@ button{
     margin-left: 150px;
     display: flex;
     justify-content: center;
-
 }
 
 .stick{
@@ -720,8 +723,8 @@ button{
     text-decoration-line: underline;
     color: #005BB9;
     margin-top: 17px;
-
 }
+
 .text__bottom{
     width: 284px;
     height: 140px;
@@ -802,10 +805,7 @@ button{
     height: 450px;
     background: #0C1A2A;
     display: flex;
-
 }
-
-
 
 .title__left p{
     width: 80px;
@@ -823,11 +823,9 @@ button{
     font-weight: 500;
     font-size: 14px;
     color: #FFFFFF;
-
 }
 
 .title__name2 p{
-
     width: 165px;
     height: 16px;
     font-weight: 500;
@@ -840,7 +838,6 @@ button{
     font-weight: 500;
     font-size: 14px;
     color: #FFFFFF;
-
 }
 
 .title__name3 img{
@@ -866,7 +863,6 @@ button{
     line-height: 19px;
     color: #FFFFFF;
     margin-top: 10px;
-
 }
 
 .title__name__right2 p{
@@ -877,7 +873,6 @@ button{
     line-height: 19px;
     color: #FFFFFF;
     margin-top: 8px;
-
 }
 
 .title__right2{
@@ -888,7 +883,6 @@ button{
     color: #868DAC;
     margin-left: 150px;
     padding-top: 36px;
-
 }
 
 .title__text{
@@ -900,7 +894,6 @@ button{
     color: #858CAB;
     margin-top: 40px;
     display: flex;
-
 }
 
 .title__text p{
@@ -912,7 +905,6 @@ button{
     color: #FFFFFF;
     margin-left: 30px;
     margin-top: -1px;
-
 }
 
 .title__text2{
@@ -930,20 +922,18 @@ button{
     margin-top: 19px;
 }
 
-
 .form-control2{
 
    background: #0C1A2A;
     border: 1px solid #203246;
     border-radius: 6px;
     color: #FFFFFF;
-
-
 }
 
 .input-group2 button{
     background: #005BB9;
     color: #FFFFFF;
+    border: none;
 }
 
 .image__social{
@@ -964,6 +954,14 @@ button{
     margin-top: 90px;
     margin-left: 100px;
 }
+
+.image__media,.image__text,.menu__katalog__media{
+    display: none;
+}
+
+
+
+
 
 
 
