@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 .header{
 
     height: 196px;
@@ -960,6 +962,11 @@ button{
 
 .image__media,.image__text,.menu__katalog__media{
     display: none;
+}
+
+button.btn__media{
+    display: none;
+
 }
 
 

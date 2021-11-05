@@ -1,6 +1,5 @@
 @media screen and (max-width: 330px) {
     .header__wrap {
-        width: 315px;
         height: 36px;
     }
 
@@ -223,11 +222,11 @@
         width: 110px;
     }
 
-    .menu__katalog {
-        margin-left: 20px;
-        flex-wrap: wrap;
+    .menu__katalog__media {
+        margin-left: 1px;
         display: flex;
-        row-gap: 40px;
+        row-gap: 2px;
+        flex-direction: row;
     }
 
     .image__media {
@@ -259,7 +258,7 @@
     }
 
     .image__media__text2 p {
-        margin: 6px 0 0 9px;
+        margin: 16px 0 0 9px;
     }
 
     .image__media__text3 p {
@@ -292,8 +291,9 @@
         display: none;
     }
 
+
     .item__katalog__text2 p {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .item__katalog2 {
@@ -309,8 +309,7 @@
     }
 
     .item__katalog__click img {
-        margin-left: 6px;
-        margin-right: 6px;
+        margin: 3px;
     }
 
     .menu__border {
@@ -359,22 +358,45 @@
         margin-top:50px;
     }
 
+    button.btn__media{
+        margin-top: -12px;
+    display: flex;
+        font-size: 10px;
+        font-weight: bolder;
+    }
 
 
+    .menu__katalog__media button{
+        width: 130px;
+        height: 49px;
+    }
 
+    .item__katalog__text3-part2{
+        margin-top: -12px;
+    }
 
+    .item__katalog__click button{
+        font-size: 13px;
+        font-weight: bolder;
+        column-gap: 2px;
+    }
 
+    img.heart{
+        margin-top: 13px;
+    }
 
+    .item__katalog__click button p{
+        margin-right: 0 ;
+    }
 
-
-
-
-
-
+    .btn__menu button,.btn__menu2 button, .btn__menu3 button{
+        font-size: 17px;
+    }
 
     .footer{
         display: block;
         height: 1500px;
+
     }
 
     .title__left p{
@@ -424,5 +446,6 @@
         margin-left: 8px;
         margin-top: 1136px;
     }
+
 
 }
